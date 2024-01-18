@@ -1,0 +1,27 @@
+events:
+  container:
+    - stop
+    - kill
+    - die
+    - oom
+    - restart
+  image:
+    - delete
+  plugin:
+    - install
+    - remove
+  volume:
+    - destroy
+    - create
+  network:
+    - destroy
+  daemon:
+    - reload
+  service:
+    - remove
+  node:
+    - remove
+  secret:
+    - remove
+  config:
+    - remove
