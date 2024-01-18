@@ -1,4 +1,4 @@
-# Docker Event Monitor (DEM)
+# Docker Event Monitor (Reforged: Sentry integration) originally from [DEM](https://bitbucket.org/quaideman/dem/src/master/app/).
 
 ### What is it?
 A tiny container that monitors the local Docker event system in real-time and sends out notifications to various integrations for event types that match the configuration.
